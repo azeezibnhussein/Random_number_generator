@@ -18,7 +18,7 @@ function App() {
           <p className="output">
             Random Number: <span>{output}</span>
           </p>
-          <p>Click the button below to generate random number</p>
+          <p>Click the button below to generate a random number</p>
         </div>
 
         <div className="random-number-container">
