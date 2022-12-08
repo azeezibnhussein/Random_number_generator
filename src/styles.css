@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS";
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #b0c4de;
+  color: #fff;
+  display: flex;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  background-color: #483d8b;
+  width: 100%;
+  max-width: 25em;
+  margin: auto;
+  padding: 1.9em;
+  border-radius: 10px;
+}
+
+.instructions-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  background-color: #b0c4de;
+  color: #483d8b;
+  padding: 1.25em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.output {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.random-number-container {
+  display: flex;
+  gap: 3em;
+  justify-content: space-around;
+  padding: 3.75em 2em 3.75em 0;
+  width: 100%;
+}
+
+.num {
+  width: 100%;
+  max-width: 42%;
+}
+
+.num input {
+  padding: 0.5em 0 0.5em 0.5em;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #b0c4de;
+}
+
+.btn {
+  align-self: center;
+}
+
+.btn button {
+  background: #b0c4de;
+  color: #483d8b;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5em 3em;
+  font-size: 17px;
+  cursor: pointer;
+  font-style: italic;
+}
